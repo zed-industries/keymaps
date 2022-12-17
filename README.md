@@ -2,10 +2,8 @@
 
 This repository contains keymaps that emulate the feel of other editors.
 
-## Keymap references
-
-- https://zed.dev/docs/configuration/key-bindings
-- https://zed.dev/faq#where-are-my-configuration-files-located?
+- [Keymap reference](https://zed.dev/docs/configuration/key-bindings)
+- [Where are my configuration files located?](https://zed.dev/faq#where-are-my-configuration-files-located?)
 
 ## Notes
 
