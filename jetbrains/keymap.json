@@ -1,61 +1,4 @@
 [
-  // Pinned bindings - Same as Zed's default, but won't change if Zed's default changes
-  {
-    "context": "Editor",
-    "bindings": {
-      "cmd-c": "editor::Copy",
-      "cmd-x": "editor::Cut",
-      "cmd-v": "editor::Paste",
-      "ctrl-k": "editor::CutToEndOfLine",
-      "delete": "editor::Delete",
-      "cmd-backspace": "editor::DeleteToBeginningOfLine",
-      "alt-delete": "editor::DeleteToNextWordEnd",
-      "alt-backspace": "editor::DeleteToPreviousWordStart",
-      "shift-up": "editor::SelectUp",
-      "shift-down": "editor::SelectDown",
-      "ctrl-p": "editor::MoveUp",
-      "ctrl-n": "editor::MoveDown",
-      "ctrl-b": "editor::MoveLeft",
-      "ctrl-f": "editor::MoveRight",
-      "up": "editor::MoveUp",
-      "down": "editor::MoveDown",
-      "left": "editor::MoveLeft",
-      "right": "editor::MoveRight",
-      "cmd-left": "editor::MoveToBeginningOfLine",
-      "cmd-right": "editor::MoveToEndOfLine",
-      "cmd-shift-left": [
-        "editor::SelectToBeginningOfLine",
-        {
-          "stop_at_soft_wraps": true
-        }
-      ],
-      "cmd-shift-right": [
-        "editor::SelectToEndOfLine",
-        {
-          "stop_at_soft_wraps": true
-        }
-      ],
-      "ctrl-m": "editor::MoveToEnclosingBracket",
-      "alt-right": "editor::MoveToNextWordEnd",
-      "alt-f": "editor::MoveToNextWordEnd",
-      "alt-left": "editor::MoveToPreviousWordStart",
-      "alt-b": "editor::MoveToPreviousWordStart",
-      "alt-shift-left": "editor::SelectToPreviousWordStart",
-      "alt-shift-b": "editor::SelectToPreviousWordStart",
-      "alt-shift-right": "editor::SelectToNextWordEnd",
-      "alt-shift-f": "editor::SelectToNextWordEnd",
-      "pagedown": "editor::PageDown",
-      "pageup": "editor::PageUp",
-      "shift-left": "editor::SelectLeft",
-      "shift-right": "editor::SelectRight",
-      "alt-up": "editor::SelectLargerSyntaxNode",
-      "alt-down": "editor::SelectSmallerSyntaxNode",
-      "tab": "editor::Tab",
-      "shift-tab": "editor::TabPrev",
-      "escape": "editor::Cancel"
-    }
-  },
-  // Custom bindings
   {
     "context": "Editor",
     "bindings": {
@@ -64,7 +7,42 @@
       "cmd-d": "editor::DuplicateLine",
       "cmd-pagedown": "editor::MovePageDown",
       "cmd-pageup": "editor::MovePageUp",
-      "ctrl-alt-shift-b": "editor::SelectToPreviousWordStart"
+      "ctrl-alt-shift-b": "editor::SelectToPreviousWordStart",
+      "alt-enter": "editor::ToggleCodeActions",
+      "shift-enter": "editor::NewlineBelow",
+      "cmd--": "editor::Fold",
+      "cmd-=": "editor::UnfoldLines",
+      "alt-shift-g": "editor::SplitSelectionIntoLines",
+      "ctrl-g": [
+        "editor::SelectNext",
+        {
+          "replace_newest": false
+        }
+      ],
+      "shift-alt-up": "editor::MoveLineUp",
+      "shift-alt-down": "editor::MoveLineDown",
+      "cmd-[": "pane::GoBack",
+      "cmd-]": "pane::GoForward",
+      "alt-f7": "editor::FindAllReferences",
+      "cmd-alt-f7": "editor::FindAllReferences",
+      "cmd-b": "editor::GoToDefinition",
+      "cmd-alt-b": "editor::GoToDefinition",
+      "cmd-shift-b": "editor::GoToTypeDefinition"
+    }
+  },
+  {
+    "context": "Editor && mode == full",
+    "bindings": {
+      "cmd-f12": "outline::Toggle",
+      "cmd-shift-o": "file_finder::Toggle",
+      "cmd-l": "go_to_line::Toggle"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-shift-a": "command_palette::Toggle",
+      "cmd-alt-o": "project_symbols::Toggle"
     }
   }
 ]
