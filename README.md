@@ -1,7 +1,9 @@
 # keymaps
 
 This repository contains keymaps that aim to replicate the feel of other editors. 
+
 Please note that some functionality may be missing in these keymaps, as Zed may not currently support the action or may not have a way to represent it with a customizable keybinding.
 
-- [Keymap reference](https://zed.dev/docs/configuration/key-bindings)
-- [Location of configuration files](https://zed.dev/faq#where-are-my-configuration-files-located)
+At this time, Zed does not have a built-in keymap switcher, so you must either:
+- Copy and paste the contents of the new keymap over your existing one (Command Palette > `zed::OpenKeymap`)
+- Overwrite the current keymap by dropping the new `keymap.json` file into `~/.config/zed/`
