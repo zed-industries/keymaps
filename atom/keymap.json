@@ -1,0 +1,50 @@
+[
+  {
+    "bindings": {
+      "cmd-k cmd-p": "workspace::ActivatePreviousPane",
+      "cmd-k cmd-n": "workspace::ActivateNextPane"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-b": "editor::GoToDefinition",
+      "cmd-<": "editor::ScrollCursorCenter",
+      "cmd-g": [
+        "editor::SelectNext",
+        {
+          "replace_newest": true
+        }
+      ]
+    }
+  },
+  {
+    "context": "Editor && mode == full",
+    "bindings": {
+      "cmd-r": "outline::Toggle"
+    }
+  },
+  {
+    "context": "BufferSearchBar",
+    "bindings": {
+      "cmd-f3": "search::SelectNextMatch"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-\\": "workspace::ToggleLeftSidebar",
+      "cmd-k cmd-b": "workspace::ToggleLeftSidebar"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-cmd-/": "search::ToggleRegex"
+    }
+  },
+  {
+    "context": "Dock",
+    "bindings": {}
+  }
+]
