@@ -17,7 +17,8 @@
         }
       ],
       "ctrl-shift-down": "editor::AddSelectionBelow",
-      "ctrl-shift-up": "editor::AddSelectionAbove"
+      "ctrl-shift-up": "editor::AddSelectionAbove",
+      "cmd-shift-backspace": "editor::DeleteToBeginningOfLine"
     }
   },
   {
@@ -29,7 +30,8 @@
   {
     "context": "BufferSearchBar",
     "bindings": {
-      "cmd-f3": "search::SelectNextMatch"
+      "cmd-f3": "search::SelectNextMatch",
+      "cmd-shift-f3": "search::SelectPrevMatch"
     }
   },
   {
