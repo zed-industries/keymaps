@@ -34,13 +34,25 @@
     "context": "Workspace",
     "bindings": {
       "cmd-\\": "workspace::ToggleLeftSidebar",
-      "cmd-k cmd-b": "workspace::ToggleLeftSidebar"
+      "cmd-k cmd-b": "workspace::ToggleLeftSidebar",
+      "cmd-t": "file_finder::Toggle"
     }
   },
   {
     "context": "Pane",
     "bindings": {
-      "alt-cmd-/": "search::ToggleRegex"
+      "alt-cmd-/": "search::ToggleRegex",
+      "ctrl-0": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "ctrl-[": "project_panel::CollapseSelectedEntry",
+      "ctrl-b": "project_panel::CollapseSelectedEntry",
+      "ctrl-]": "project_panel::ExpandSelectedEntry",
+      "ctrl-f": "project_panel::ExpandSelectedEntry",
+      "ctrl-shift-c": "project_panel::CopyPath"
     }
   },
   {
