@@ -15,7 +15,9 @@
         {
           "replace_newest": true
         }
-      ]
+      ],
+      "ctrl-shift-down": "editor::AddSelectionBelow",
+      "ctrl-shift-up": "editor::AddSelectionAbove"
     }
   },
   {
@@ -35,7 +37,8 @@
     "bindings": {
       "cmd-\\": "workspace::ToggleLeftSidebar",
       "cmd-k cmd-b": "workspace::ToggleLeftSidebar",
-      "cmd-t": "file_finder::Toggle"
+      "cmd-t": "file_finder::Toggle",
+      "cmd-shift-r": "project_symbols::Toggle"
     }
   },
   {
@@ -50,6 +53,7 @@
     "bindings": {
       "ctrl-[": "project_panel::CollapseSelectedEntry",
       "ctrl-b": "project_panel::CollapseSelectedEntry",
+      "h": "project_panel::CollapseSelectedEntry",
       "ctrl-]": "project_panel::ExpandSelectedEntry",
       "ctrl-f": "project_panel::ExpandSelectedEntry",
       "ctrl-shift-c": "project_panel::CopyPath"
