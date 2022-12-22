@@ -1,0 +1,20 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {}
+  },
+  {
+    "context": "Editor && mode == full",
+    "bindings": {}
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-k cmd-b": "workspace::ToggleLeftSidebar"
+    }
+  },
+  {
+    "context": "Dock",
+    "bindings": {}
+  }
+]
