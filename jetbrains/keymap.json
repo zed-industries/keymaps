@@ -37,7 +37,11 @@
       "f2": "editor::GoToDiagnostic",
       "cmd-f2": "editor::GoToPrevDiagnostic",
       "ctrl-alt-shift-down": "editor::GoToHunk",
-      "ctrl-alt-shift-up": "editor::GoToPrevHunk"
+      "ctrl-alt-shift-up": "editor::GoToPrevHunk",
+      "cmd-home": "editor::MoveToBeginning", // `home` and `end` keys are supported in v0.68.x
+      "cmd-end": "editor::MoveToEnd",
+      "cmd-shift-home": "editor::SelectToBeginning",
+      "cmd-shift-end": "editor::SelectToEnd"
     }
   },
   {
