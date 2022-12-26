@@ -1,7 +1,20 @@
 [
   {
+    "bindings": {
+      "cmd-shift-[": "pane::ActivatePrevItem",
+      "cmd-shift-]": "pane::ActivateNextItem",
+      "ctrl-pagedown": "pane::ActivatePrevItem",
+      "ctrl-pageup": "pane::ActivateNextItem",
+      "ctrl-shift-tab": "pane::ActivateNextItem",
+      "ctrl-tab": "pane::ActivatePrevItem"
+    }
+  },
+  {
     "context": "Editor",
-    "bindings": {}
+    "bindings": {
+      "ctrl-shift-up": "editor::AddSelectionAbove",
+      "ctrl-shift-down": "editor::AddSelectionBelow"
+    }
   },
   {
     "context": "Editor && mode == full",
