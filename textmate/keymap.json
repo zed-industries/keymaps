@@ -1,7 +1,7 @@
 [
   {
     "bindings": {
-      "cmd-shift-o": "recent_projects::Toggle",
+      "cmd-shift-o": "recent_projects::Toggle"
     }
   },
   {
@@ -51,7 +51,7 @@
         }
       ],
       "ctrl-shift-left": "editor::SelectToPreviousSubwordStart",
-      "ctrl-shift-right": "editor::SelectToNextSubwordEnd",
+      "ctrl-shift-right": "editor::SelectToNextSubwordEnd"
     }
   },
   {
