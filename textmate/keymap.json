@@ -1,0 +1,49 @@
+[
+  {
+    "bindings": {}
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-b": "editor::GoToDefinition",
+      "cmd-g": "editor::SelectNext",
+      "cmd-shift-g": "editor::SelectPrevious",
+      "cmd-j": "editor::ScrollCursorCenter",
+      "cmd-backspace": "editor::DeleteToBeginningOfLine"
+    }
+  },
+  {
+    "context": "Editor && mode == full",
+    "bindings": {}
+  },
+  {
+    "context": "BufferSearchBar",
+    "bindings": {
+      "ctrl-s": "search::SelectNextMatch",
+      "ctrl-shift-s": "search::SelectPrevMatch"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-alt-ctrl-d": "workspace::ToggleLeftSidebar",
+      "cmd-t": "file_finder::Toggle",
+      "cmd-shift-t": "project_symbols::Toggle"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-cmd-r": "search::ToggleRegex",
+      "ctrl-tab": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {}
+  },
+  {
+    "context": "Dock",
+    "bindings": {}
+  }
+]
