@@ -1,15 +1,26 @@
 [
   {
-    "bindings": {}
+    "bindings": {
+      "cmd-shift-[": "pane::ActivatePrevItem",
+      "cmd-shift-]": "pane::ActivateNextItem"
+    }
   },
   {
     "context": "Editor",
     "bindings": {
+      "cmd-=": "zed::IncreaseBufferFontSize",
+      "cmd--": "zed::DecreaseBufferFontSize",
+      "cmd-_": "zed::IncreaseBufferFontSize",
+      "cmd-+": "zed::DecreaseBufferFontSize",
       "cmd-b": "editor::GoToDefinition",
       "cmd-g": "editor::SelectNext",
       "cmd-shift-g": "editor::SelectPrevious",
       "cmd-j": "editor::ScrollCursorCenter",
-      "cmd-backspace": "editor::DeleteToBeginningOfLine"
+      "cmd-backspace": "editor::DeleteToBeginningOfLine",
+      "ctrl-shift-d": "editor::DuplicateLine",
+      "cmd-return": "editor::NewlineBelow",
+      "cmd-ctrljq-up": "editor::MoveLineUp",
+      "cmd-ctrl-down": "editor::MoveLineDown"
     }
   },
   {
@@ -26,7 +37,7 @@
   {
     "context": "Workspace",
     "bindings": {
-      "cmd-alt-ctrl-d": "workspace::ToggleLeftSidebar",
+      "cmd-alt-ctrl-d": "workspaceLeft",
       "cmd-t": "file_finder::Toggle",
       "cmd-shift-t": "project_symbols::Toggle"
     }
