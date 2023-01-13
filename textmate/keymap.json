@@ -1,26 +1,57 @@
 [
   {
     "bindings": {
-      "cmd-shift-[": "pane::ActivatePrevItem",
-      "cmd-shift-]": "pane::ActivateNextItem"
+      "cmd-shift-o": "recent_projects::Toggle",
     }
   },
   {
     "context": "Editor",
     "bindings": {
-      "cmd-=": "zed::IncreaseBufferFontSize",
-      "cmd--": "zed::DecreaseBufferFontSize",
-      "cmd-_": "zed::IncreaseBufferFontSize",
-      "cmd-+": "zed::DecreaseBufferFontSize",
-      "cmd-b": "editor::GoToDefinition",
-      "cmd-g": "editor::SelectNext",
-      "cmd-shift-g": "editor::SelectPrevious",
-      "cmd-j": "editor::ScrollCursorCenter",
-      "cmd-backspace": "editor::DeleteToBeginningOfLine",
+      "cmd-l": "editor::ToggleGoToLine",
       "ctrl-shift-d": "editor::DuplicateLine",
-      "cmd-return": "editor::NewlineBelow",
-      "cmd-ctrljq-up": "editor::MoveLineUp",
-      "cmd-ctrl-down": "editor::MoveLineDown"
+      "cmd-b": "editor::GoToDefinition",
+      "cmd-j": "editor::ScrollCursorCenter",
+      "cmd-enter": "editor::NewlineBelow",
+      "cmd-shift-l": "editor::SelectLine",
+
+      "alt-backspace": "editor::DeleteToPreviousWordStart",
+      "alt-shift-backspace": "editor::DeleteToNextWordEnd",
+      "alt-delete": "editor::DeleteToNextWordEnd",
+      "alt-shift-delete": "editor::DeleteToNextWordEnd",
+      "ctrl-backspace": "editor::DeleteToPreviousSubwordStart",
+      "ctrl-delete": "editor::DeleteToNextSubwordEnd",
+
+      "alt-left": [
+        "editor::MoveToPreviousWordStart",
+        {
+          "stop_at_soft_wraps": true
+        }
+      ],
+      "alt-right":[
+        "editor::MoveToNextWordEnd",
+        {
+          "stop_at_soft_wraps": true
+        }
+      ],
+      "ctrl-left": "editor::MoveToPreviousSubwordStart",
+      "ctrl-right": "editor::MoveToNextSubwordEnd",
+
+      "cmd-shift-left": "editor::SelectToBeginningOfLine",
+      "cmd-shift-right": "editor::SelectToEndOfLine",
+      "alt-shift-left": [
+        "editor::SelectToBeginningOfLine",
+        {
+          "stop_at_soft_wraps": true
+        }
+      ],
+      "alt-shift-right": [
+        "editor::SelectToEndOfLine",
+        {
+          "stop_at_soft_wraps": true
+        }
+      ],
+      "ctrl-shift-left": "editor::SelectToPreviousSubwordStart",
+      "ctrl-shift-right": "editor::SelectToNextSubwordEnd",
     }
   },
   {
