@@ -13,17 +13,27 @@
     "context": "Editor",
     "bindings": {
       "ctrl-shift-up": "editor::AddSelectionAbove",
-      "ctrl-shift-down": "editor::AddSelectionBelow"
+      "ctrl-shift-down": "editor::AddSelectionBelow",
+      "cmd-shift-space": "editor::SelectAll",
+      "ctrl-shift-m": "editor::SelectLargerSyntaxNode",
+      "cmd-shift-a": "editor::SelectLargerSyntaxNode",
+      "shift-f12": "editor::FindAllReferences",
+      "alt-cmd-down": "editor::GoToDefinition",
+      "alt-shift-cmd-down": "editor::FindAllReferences"
     }
   },
   {
     "context": "Editor && mode == full",
-    "bindings": {}
+    "bindings": {
+      "cmd-r": "outline::Toggle"
+    }
   },
   {
     "context": "Workspace",
     "bindings": {
-      "cmd-k cmd-b": "workspace::ToggleLeftSidebar"
+      "cmd-k cmd-b": "workspace::ToggleLeftSidebar",
+      "cmd-t": "file_finder::Toggle",
+      "shift-cmd-r": "project_symbols::Toggle"
     }
   },
   {
