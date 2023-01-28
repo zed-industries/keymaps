@@ -19,7 +19,11 @@
       "cmd-shift-a": "editor::SelectLargerSyntaxNode",
       "shift-f12": "editor::FindAllReferences",
       "alt-cmd-down": "editor::GoToDefinition",
-      "alt-shift-cmd-down": "editor::FindAllReferences"
+      "alt-shift-cmd-down": "editor::FindAllReferences",
+      "ctrl-.": "editor::GoToHunk",
+      "ctrl-,": "editor::GoToPrevHunk",
+      "ctrl-backspace": "editor::DeleteToPreviousWordStart",
+      "ctrl-delete": "editor::DeleteToNextWordEnd"
     }
   },
   {
@@ -29,8 +33,16 @@
     }
   },
   {
+    "context": "Pane",
+    "bindings": {
+      "f4": "search::SelectNextMatch",
+      "shift-f4": "search::SelectPrevMatch"
+    }
+  },
+  {
     "context": "Workspace",
     "bindings": {
+      "ctrl-`": "dock::FocusDock",
       "cmd-k cmd-b": "workspace::ToggleLeftSidebar",
       "cmd-t": "file_finder::Toggle",
       "shift-cmd-r": "project_symbols::Toggle"
@@ -38,6 +50,8 @@
   },
   {
     "context": "Dock",
-    "bindings": {}
+    "bindings": {
+      "ctrl-`": "dock::HideDock"
+    }
   }
 ]
