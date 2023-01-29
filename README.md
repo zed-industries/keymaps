@@ -13,8 +13,8 @@ At this time, Zed does not have a built-in keymap switcher, so you must either:
 Issues for the `keymaps` can be found [here](https://github.com/zed-industries/feedback/issues?q=is%3Aissue+is%3Aopen+label%3Akeymaps).
 
 Feel free to open a pull request to:
-- fix an issue for an existing keymap
-- add a new keymap
+- Fix an issue for an existing keymap
+- Add a new keymap
 
 ## Things to note
 
