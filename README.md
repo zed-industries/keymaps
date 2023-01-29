@@ -14,7 +14,7 @@ Issues for the `keymaps` can be found [here](https://github.com/zed-industries/f
 
 Feel free to open a pull request to:
 - fix an issue for an existing keymap
-- [add a new keymap](https://github.com/zed-industries/keymaps/issues/4)
+- add a new keymap
 
 ## Things to note
 
