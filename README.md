@@ -8,6 +8,8 @@ At this time, Zed does not have a built-in keymap switcher, so you must either:
 - Copy and paste the contents of the new keymap over your existing one (Command Palette > `zed::OpenKeymap`)
 - Overwrite the current keymap by dropping the new `keymap.json` file into `~/.config/zed/`
 
+Issues for the `keymaps` can be found [here](https://github.com/zed-industries/feedback/issues?q=is%3Aissue+is%3Aopen+label%3Akeymaps).
+
 Feel free to open a pull request to:
 - fix an issue for an existing keymap
 - [add a new keymap](https://github.com/zed-industries/keymaps/issues/4)
