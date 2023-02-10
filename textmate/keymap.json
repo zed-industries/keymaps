@@ -13,7 +13,7 @@
       "cmd-j": "editor::ScrollCursorCenter",
       "cmd-enter": "editor::NewlineBelow",
       "cmd-shift-l": "editor::SelectLine",
-
+      "cmd-shift-t": "outline::Toggle",
       "alt-backspace": "editor::DeleteToPreviousWordStart",
       "alt-shift-backspace": "editor::DeleteToNextWordEnd",
       "alt-delete": "editor::DeleteToNextWordEnd",
