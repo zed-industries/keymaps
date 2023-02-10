@@ -1,13 +1,13 @@
 [
   {
     "bindings": {
-      "cmd-shift-o": "recent_projects::Toggle"
+      "cmd-shift-o": "projects::OpenRecent"
     }
   },
   {
     "context": "Editor",
     "bindings": {
-      "cmd-l": "editor::ToggleGoToLine",
+      "cmd-l": "go_to_line::Toggle",
       "ctrl-shift-d": "editor::DuplicateLine",
       "cmd-b": "editor::GoToDefinition",
       "cmd-j": "editor::ScrollCursorCenter",
@@ -20,14 +20,13 @@
       "alt-shift-delete": "editor::DeleteToNextWordEnd",
       "ctrl-backspace": "editor::DeleteToPreviousSubwordStart",
       "ctrl-delete": "editor::DeleteToNextSubwordEnd",
-
       "alt-left": [
         "editor::MoveToPreviousWordStart",
         {
           "stop_at_soft_wraps": true
         }
       ],
-      "alt-right":[
+      "alt-right": [
         "editor::MoveToNextWordEnd",
         {
           "stop_at_soft_wraps": true
@@ -35,7 +34,6 @@
       ],
       "ctrl-left": "editor::MoveToPreviousSubwordStart",
       "ctrl-right": "editor::MoveToNextSubwordEnd",
-
       "cmd-shift-left": "editor::SelectToBeginningOfLine",
       "cmd-shift-right": "editor::SelectToEndOfLine",
       "alt-shift-left": [
@@ -68,7 +66,7 @@
   {
     "context": "Workspace",
     "bindings": {
-      "cmd-alt-ctrl-d": "workspaceLeft",
+      "cmd-alt-ctrl-d": "workspace::ToggleLeftSidebar",
       "cmd-t": "file_finder::Toggle",
       "cmd-shift-t": "project_symbols::Toggle"
     }
