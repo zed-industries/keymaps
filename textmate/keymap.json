@@ -1,7 +1,8 @@
 [
   {
     "bindings": {
-      "cmd-shift-o": "projects::OpenRecent"
+      "cmd-shift-o": "projects::OpenRecent",
+      "cmd-alt-tab": "project_panel::ToggleFocus"
     }
   },
   {
