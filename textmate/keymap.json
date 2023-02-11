@@ -81,7 +81,9 @@
   },
   {
     "context": "ProjectPanel",
-    "bindings": {}
+    "bindings": {
+      "enter": "project_panel::Rename"
+    }
   },
   {
     "context": "Dock",
