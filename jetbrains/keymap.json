@@ -24,6 +24,12 @@
           "replace_newest": false
         }
       ],
+      "cmd-/": [
+        "editor::ToggleComments",
+        {
+          "advance_downwards": true
+        }
+      ],
       "shift-alt-up": "editor::MoveLineUp",
       "shift-alt-down": "editor::MoveLineDown",
       "cmd-[": "pane::GoBack",
