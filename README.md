@@ -4,9 +4,7 @@ This repository contains keymaps that aim to replicate the feel of other editors
 
 ## Installation
 
-At this time, Zed does not have a built-in keymap switcher, so you must either:
-- Copy and paste the contents of the new keymap over your existing one (Command Palette > `zed::OpenKeymap`)
-- Overwrite the current keymap by dropping the new `keymap.json` file into `~/.config/zed/`
+At this time, Zed does not have a built-in keymap switcher, so you can copy and paste the contents of the new keymap over your existing one (Command Palette > `zed::OpenKeymap`)
 
 ## Issues and pull requests
 
