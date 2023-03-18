@@ -1,0 +1,90 @@
+[
+    {
+        "bindings": {
+            // Default
+            "ctrl-x k": "pane::CloseActiveItem",
+            "ctrl-x o": "workspace::ActivateNextPane",
+            "ctrl-x ctrl-c": "zed::Quit",
+            // project.el
+            "ctrl-x p p": "projects::OpenRecent"
+        }
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            // Default
+            "ctrl-x h": "editor::SelectAll",
+            "ctrl-x ctrl-s": "workspace::Save",
+            "ctrl-x ctrl-w": "workspace::SaveAs",
+            "ctrl-/": "editor::Undo",
+            "cmd--": "editor::Redo",
+            "ctrl-g": "editor::Cancel",
+            "ctrl-d": "editor::Delete",
+            "ctrl-k": "editor::CutToEndOfLine",
+            "ctrl-w": "editor::Cut",
+            "cmd-w": "editor::Copy",
+            "ctrl-y": "editor::Paste",
+            "cmd-<": "editor::MoveToBeginning",
+            "cmd->": "editor::MoveToEnd",
+            "cmd-b": "editor::MoveToPreviousWordStart",
+            "cmd-f": "editor::MoveToNextWordEnd",
+            "ctrl-backspace": "editor::DeleteToPreviousSubwordStart",
+            "cmd-d": "editor::DeleteToNextSubwordEnd",
+            "cmd-shift-b": "editor::SelectToPreviousWordStart",
+            "cmd-shift-f": "editor::SelectToNextWordEnd",
+            "cmd-.": "editor::GoToDefinition",
+            "ctrl-v": [
+                "editor::MovePageDown",
+                {
+                    "center_cursor": true
+                }
+            ],
+            "cmd-v": [
+                "editor::MovePageUp",
+                {
+                    "center_cursor": true
+                }
+            ],
+            "cmd-;": [
+                "editor::ToggleComments",
+                {
+                    "advance_downwards": false
+                }
+            ]
+        }
+    },
+    {
+        "context": "Editor && mode == full",
+        "bindings": {
+            // isearch.el
+            "ctrl-s": [
+                "buffer_search::Deploy",
+                {
+                    "focus": true
+                }
+            ]
+        }
+    },
+    {
+        "context": "BufferSearchBar > Editor",
+        "bindings": {
+            // isearch.el
+            "enter": "buffer_search::Dismiss",
+            "ctrl-g": "buffer_search::Dismiss",
+            "ctrl-s": "search::SelectNextMatch",
+            "ctrl-r": "search::SelectPrevMatch"
+        }
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            // Built-in
+            "ctrl-x ctrl-m": "command_palette::Toggle",
+            "ctrl-x b": "file_finder::Toggle",
+            // project.el
+            "ctrl-x p f": "file_finder::Toggle",
+            "ctrl-x p i": "project_symbols::Toggle",
+            "ctrl-x p g": "workspace::NewSearch"
+        }
+    }
+]
