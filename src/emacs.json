@@ -1,7 +1,7 @@
 [
     {
         "bindings": {
-            // Default
+            // Built-in
             "ctrl-x k": "pane::CloseActiveItem",
             "ctrl-x o": "workspace::ActivateNextPane",
             "ctrl-x ctrl-c": "zed::Quit",
@@ -12,7 +12,7 @@
     {
         "context": "Editor",
         "bindings": {
-            // Default
+            // Built-in
             "ctrl-x h": "editor::SelectAll",
             "ctrl-x ctrl-s": "workspace::Save",
             "ctrl-x ctrl-w": "workspace::SaveAs",
