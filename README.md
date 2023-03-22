@@ -8,7 +8,7 @@ Zed refers to this keymap layer as `base keymaps`.  To change your base keymap, 
 
 ## Issues and pull requests
 
-Issues for the `keymaps` repository can be found [here](https://github.com/zed-industries/feedback/issues?q=is%3Aissue+is%3Aopen+label%3Akeymaps).
+Issues for the `keymaps` repository can be found [here](https://github.com/zed-industries/community/labels/keymap%20%2F%20keybinding).
 
 Feel free to open a pull request to:
 - Fix an issue for an existing keymap
