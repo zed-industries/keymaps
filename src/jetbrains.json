@@ -64,6 +64,7 @@
   {
     "context": "Workspace",
     "bindings": {
+      "cmd-shift-o": "file_finder::Toggle",
       "cmd-shift-a": "command_palette::Toggle",
       "cmd-alt-o": "project_symbols::Toggle",
       "cmd-1": "workspace::ToggleLeftSidebar",
