@@ -34,6 +34,7 @@
       ],
       "shift-alt-up": "editor::MoveLineUp",
       "shift-alt-down": "editor::MoveLineDown",
+      "cmd-alt-l": "editor::Format",
       "cmd-[": "pane::GoBack",
       "cmd-]": "pane::GoForward",
       "alt-f7": "editor::FindAllReferences",
