@@ -51,7 +51,8 @@
         }
       ],
       "ctrl-shift-left": "editor::SelectToPreviousSubwordStart",
-      "ctrl-shift-right": "editor::SelectToNextSubwordEnd"
+      "ctrl-shift-right": "editor::SelectToNextSubwordEnd",
+      "ctrl-w": "editor::SelectNext",
     }
   },
   {
