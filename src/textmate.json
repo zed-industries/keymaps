@@ -53,6 +53,10 @@
       "ctrl-shift-left": "editor::SelectToPreviousSubwordStart",
       "ctrl-shift-right": "editor::SelectToNextSubwordEnd",
       "ctrl-w": "editor::SelectNext",
+      "ctrl-u": "editor::ConvertToUpperCase",
+      "ctrl-shift-u": "editor::ConvertToLowerCase",
+      "ctrl-alt-u": "editor::ConvertToUpperCamelCase",
+      "ctrl-_": "editor::ConvertToSnakeCase"
     }
   },
   {
