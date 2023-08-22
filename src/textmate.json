@@ -83,5 +83,9 @@
   {
     "context": "ProjectPanel",
     "bindings": {}
+  },
+  {
+    "context": "Dock",
+    "bindings": {}
   }
 ]
