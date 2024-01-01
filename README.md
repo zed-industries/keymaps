@@ -4,7 +4,7 @@ This repository contains keymaps that aim to replicate the feel of other editors
 
 ## Changing keymaps
 
-Zed refers to this keymap layer as `base keymaps`.  To change your base keymap, open the command palette via `cmd-shift-p` and then search for `welcome: toggle base keymap selector`.  Choosing one of these options will update the `base_keymap` setting in your `settings.json` file.  Currently, we manually update these keymaps within zed to match the contents of those within this repository, but in the future, we will improve this process.
+Zed refers to this keymap layer as `base keymaps`.  To change your base keymap, open the command palette via `cmd-shift-p` and then search for `welcome: toggle base keymap selector`.  Choosing one of these options will update the `base_keymap` setting in your `settings.json` file.  Currently, we manually update these keymaps within Zed to match the contents of those within this repository, but in the future, Zed will be open source, users will be able to contribute directly, and this repository will be archived.
 
 ## Issues and pull requests
 
