@@ -1,3 +1,5 @@
+🚨 The [Zed repository](https://github.com/zed-industries/zed) is now open source! Please open your keymaps-related PRs there. 🚨
+
 # keymaps
 
 This repository contains keymaps that aim to replicate the feel of other editors.
